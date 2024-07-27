@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DDF5B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFEEC;
+    filter: drop-shadow(0px 0px 10px black);
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    margin:10px 0px ;
+}
+.inputs{
+    margin-top: 10px;
+    background-color:#007F56;
+    padding: 30px;
+    border-radius: 50px 0px 10px 10px;
+}
+.input_box{
+    padding: 12px 50px;
+    margin: 12px 5px;
+    width: 100%;
+    background-color: #FFFEEC;
+    border: none;
+    border-radius: 10px;
+    
+}
+.input_box label{
+    font-size: large;
+    position: relative;
+    right: 30px;
+}
+.input_box input{
+    padding: 5px 10;
+    position: relative;
+    font-size: large;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+button{
+    width: 200px;
+    position: relative;
+    left: 50px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+p{
+    color: white;
+    position: relative;
+    left: 45px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.result {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 10px black);
+    padding: 50px;
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+    z-index: 10;
+    
+}
+
+.result button {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.result p{
+    color: black;
+}
